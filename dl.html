@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head -->
+<head>
+
+	<title>登录表单</title>
+    <style>
+    		@font-face {
+				font-family:miss;
+				src: url(css/Miss.ttf);
+			}
+    	
+    </style>
+	<!-- Meta-Tags -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //Meta-Tags -->
+
+	<!-- Style --> <link rel="stylesheet" href="css/dl.css" type="text/css" media="all">
+
+
+
+</head>
+<!-- //Head -->
+
+<!-- Body -->
+<body style="overflow-y: hidden;">
+	
+
+	<h1>LoginPage</h1>
+
+	<div class="container w3layouts agileits">
+		<div class="login w3layouts agileits">
+			<h2>Login</h2>
+			<form action="#" method="post">
+				<input type="text" Name="Userame" placeholder="Name" required="" title="用户名">
+				<input type="password" Name="Password" placeholder="Code" required="" title="密码" id="code">
+			</form>
+			<ul class="tick w3layouts agileits">
+				<li>
+					<input type="checkbox" id="brand1" value="" id="checked">
+					<label for="brand1"><span></span>Remeber Me</label>
+				</li>
+			</ul>
+			<div class="send-button w3layouts agileits">
+				<form action="index.html">
+					<input type="submit" value="Submit" title="登录">
+				</form>
+			</div>
+			<a href="#">Remeber Password?</a>
+			
+			
+			
+			<div class="social-icons w3layouts agileits">
+				<p>- Otherwise-</p>
+				
+				<ul>
+					<li class="qq"><a href="#">
+						
+					<span class="icons w3layouts agileits"></span>
+					<span class="text w3layouts agileits" id="qq"  >QQ</span></a></li>
+					<li class="weixin w3ls"><a href="#">
+					<span class="icons w3layouts"></span>
+					<span class="text w3layouts agileits" id="weixin">Wechat</span></a></li>
+					<li class="weibo aits"><a href="#">
+					<span class="icons agileits"></span>
+					<span class="text w3layouts agileits" id="weibo">MicroBlog</span></a></li>
+					<div class="clear"> </div>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</div><div class="copyrights"></div>
+		<div class="register w3layouts agileits">
+			<h2>Register</h2>
+			<form action="#" method="post">
+				<input type="text" Name="Name" placeholder="Name" required="" title="用户名">
+				<input type="text" Name="Email" placeholder="Email" required="" title="邮件">
+				<input type="password" Name="Password" placeholder="Code" required="" title="密码">
+				<input type="text" Name="Phone Number" placeholder="Tel" required="" title="电话">
+			</form>
+			<div class="send-button w3layouts agileits">
+				<form action="zccg.html" >
+					<input type="submit" value="Free Registration" title="免费注册">
+						
+				    <img src="images/weibo.jpg" class="pimg"/>
+				    
+				</form>
+				<form action="contact.html">
+				<input type="submit" value="Go Back" title="返回">
+				</form>
+			</div>
+			<div class="clear"></div>
+		</div>
+
+		<div class="clear"></div>
+        
+	</div>
+	
+     <script src="js/jquery-1.9.1.min.js"></script>
+  
+	 <script>
+	  
+	 	window.onload=function(){
+	 		
+	 		$(function(){
+	 			$(".container").slideToggle(3500);
+	 			$(".pimg").css("display","none");
+	 	        $("#qq").click(function(){
+	 	        	$(".pimg").fadeIn(2000);
+	 	        });
+	 	     $("#qq").mouseout(function(){
+	 	        	$(".pimg").fadeOut(1000);
+	 	        });
+             $("#weixin").click(function(){
+	 	        	$(".pimg").fadeIn(2000);
+	 	        });
+	 	     $("#weixin").mouseout(function(){
+	 	        	$(".pimg").fadeOut(1000);
+	 	        });
+	 	     $("#weibo").click(function(){
+	 	        	$(".pimg").fadeIn(2000);
+	 	        });
+	 	     $("#weibo").mouseout(function(){
+	 	        	$(".pimg").fadeOut(1000);
+	 	        });
+	 		});
+	 		
+	 	}
+	 	
+	 	
+	 </script>
+
+</body>
+<!-- //Body -->
+
+</html>
