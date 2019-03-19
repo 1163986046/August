@@ -1,0 +1,225 @@
+	*{
+		margin: 0;
+		padding: 0;
+		/*color: white;*/
+	}
+	body{
+		margin-bottom: 0px;
+	}
+	/*第一部分*/
+	#bfcat-family{
+		font-family: sign;
+		
+	}
+	.cat{
+		margin-top: 50px;
+		
+	}
+	#lf-family{
+		/*color: white;*/
+		margin: 27px 0;
+		font-family: 'Arimo', sans-serif;
+		
+	}
+	.f-family{
+		font-family: miss;
+	}
+	.diva{
+		margin: 30px auto;
+		
+	}
+	.aimg{
+	     
+	     width: 100%;
+	     height: auto;	
+	 	 border: 1px solid #4597A8;
+	     padding: 3px;
+	}	
+	.dimg{
+	     
+	     width: 100%;
+	     height: auto;	
+	     border: 1px solid #4597A8;
+	     padding: 3px;
+	     
+	}	
+	#bfdog-family{
+		font-family: sign;
+		
+	}
+   .dimg:hover{-webkit-animation:az 2s ease 0s alternate none 2;}
+   .dimg:hover{-moz-animation:az 2s ease 0s alternate none 2;}
+   .dimg:hover{animation:az 2s ease 0s alternate none 2;}
+	/*第一部分*/
+	/*第二部分*/
+	.blogf{
+		margin: 50px 0;
+	}
+	 #blog-family{
+	 	
+		font-family: sign;
+	}
+	.about{
+		margin-top: 40px;
+		
+	}
+	/*.aboutcat{
+		
+		margin:0 -10px;
+	}*/
+	.aboutcat img{
+		width: 100%;
+		border-radius:100px 20px;
+	}
+	
+	.abouttext{
+		font-family: miss;
+		font-size: 3em;
+		line-height: 40px;
+		
+		/*border: 1px solid red;*/
+	}
+	.aboutbtn{
+		font-family: zda;
+		margin: 0 40px;
+		
+	}
+	/*第二部分*/
+	/*重写第二部分*/
+	.team{
+		margin-top: 40px;
+	}
+	.teamtran{
+		width:263px;
+		
+		overflow: hidden;
+	}
+	.teamimg{
+		width: 100%;
+		transition: all 2s;
+		
+		transform: rotate(-40deg);
+	}
+	.teamimg:hover{
+		transform: rotate(0deg);
+		transform: scale(1.3,1.3);
+		
+	}
+	#teamfamily{
+		
+		font-family: sign;
+	}
+	.tlf{
+		margin: 27px 0px;
+	}
+	.teamb{
+		width:263px;
+		height: 100px;
+		background: black;
+		color: white;
+		line-height: 40px;
+	}
+	.ta{
+		font-size: 1.4em;
+		cursor: pointer;
+		 font-family: 'Arimo', sans-serif;
+	}
+	.ta:hover{
+		text-shadow: #ADADAD;
+	}
+	.tb{
+		font-size: 1.3em;
+		color: #888888;
+	}
+	/*重写第二部分*/
+    /*第三部分*/
+   .doga{
+   	width: 100%;
+   	   height: auto;
+   	    min-width: 300px;
+   	    background: url(../images/dogsfood.jpg) no-repeat;
+   	    background-size:100%;
+   	    margin-top: 80px;
+   }
+   /*.dogc{
+   	  margin-top: 66px;
+   }*/
+   .dogc1{
+   	margin-top: 40px;
+   }
+   .dogp{
+   	color: white;
+   	
+   	margin: 10px 0;
+    font-family: 'Arimo', sans-serif;
+   	font-size: 2em;
+   }
+   .dogpp{
+   	color:white;
+   	font-family: 'Arimo', sans-serif;
+    font-size: 1em;
+   	margin:0 20px ;
+   }
+   .dbtn{
+   	  margin-top: 10px;
+   }
+   .dbtn a:hover{
+   	   text-decoration: none;
+   	  
+   }
+   .btna{
+   	  transform: skew(-45deg);
+   	 
+   	  box-shadow:5px 10px 20 dodgerblue;
+   	     }
+   /*第三部分*/
+  /*第四部分*/
+      .lastour{
+      	background:black;
+      	width: 100%;
+      	/*height: 300px;*/
+      	background-size: 100%;
+      	line-height: 25px;
+      	color: #FFFFFF;
+      	margin: 0 auto;
+      	padding: 40px;
+      }
+      .lainput{
+      	margin-top: 37px;
+      }
+    .tj{
+    	background: #5BC0DE;
+    	cursor: pointer;
+    }
+    .tj:hover{
+    	background: deepskyblue;
+    }
+   
+    .footer{
+    	/*height: 68px;*/
+    	width: 100%;
+    	background:#FF8000;
+    }
+    .foottext{
+    	line-height: 77px;
+    	/*font-size: 1.5em;*/
+    	color: white;
+    	 font-family: 'Arimo', sans-serif;
+    }
+    .sfoot{
+    	
+    }
+    #totop{
+    	position: fixed;
+    	right: 2%;
+    	bottom: 10px;
+    }
+  /*第四部分*/
+   /*介绍猫的动画*/
+  
+   @-webkit-keyframes az { from{-webkit-transform:perspective(400px) translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg); } to{-webkit-transform:perspective(400px) translate3d(0,0,-5000px) rotateX(720deg) rotateY(360deg) rotateZ(-360deg); } }
+   @-moz-keyframes az { from{-moz-transform:perspective(400px) translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg); } to{-moz-transform:perspective(400px) translate3d(0,0,-5000px) rotateX(720deg) rotateY(360deg) rotateZ(-360deg); } }
+   @keyframes az { from{transform:perspective(400px) translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg); } to{transform:perspective(400px) translate3d(0,0,-5000px) rotateX(720deg) rotateY(360deg) rotateZ(-360deg); } }*/
+     /*介绍猫的动画*/
+	
+

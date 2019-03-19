@@ -1,0 +1,131 @@
+/*540-768*/
+
+/*body{
+	background: red;
+}*/
+/*.dogc1{
+	display: none;
+}*/
+.dogthree{
+	display: none;
+}
+.dogtwo{
+	display: none;
+}
+.dogp{
+   	margin: 3px 0;
+    font-family: 'Arimo', sans-serif;
+   	font-size: 0.8em;
+   }
+.dogpp{
+   	color:white;
+   	font-family: 'Arimo', sans-serif;
+    font-size: 0.6em;
+   	margin:0 0;
+   }
+   .dbtn{
+   	  margin-top: 4px;
+   	  height: 20px;
+   	  width: 50px;
+   	  font-size: 0.3em;
+   	  line-height: 10px;
+   	  transform: skew(25deg);
+   	  text-align: center;
+   }
+   .dogc1{
+   	margin-top:4 px;
+   	
+   }
+   .dogc img{
+   	  height: 50px;
+   }
+   
+.dogc1 img{
+	height: 50px;
+}
+.doga{
+   	margin-top: 30px
+   }
+
+
+
+.team{
+	display: none;
+}
+.slide-text{
+	bottom: 20px;
+	font-size: 14px;
+}
+.acat{
+	display: none;
+}
+.bcat{
+	height: 334px;
+	width: 502px;
+}
+.bcat h1{
+	font-size:1.5em;
+}
+.bcat p{
+	font-size:0.8em ;
+}
+.divcon1{
+	margin-left:150px;
+	margin-top: 0;
+	
+}
+.divcon{
+	margin-left:150px;
+	margin-top: 100px;
+	
+}
+.divcon2{
+	margin-left:150px;
+	margin-bottom: 30px;
+	margin-top: 0px;
+
+}
+ .ph1{
+   	  font-family: china;
+   	 font-size:3em;
+   	  color: black;
+   	  
+   }
+   body{
+   	background-image: url(../images/back.jpg);
+   	background-attachment: fixed;
+   	background-size:cover ;
+   }
+.backphoto{
+	display: none;
+}
+.second-sp{
+   	display: none;
+   }
+#second-text2{
+	display: none;
+}
+.dis{display: none;}
+
+.careul{
+	display: none;
+}
+.contdis{
+	display: none;
+}
+.contustwo{
+	height: auto;
+}
+.contsub{
+	margin-top: 20px;
+}
+
+.second-text2{
+	display: none;
+}
+.second-text{
+	display: none;
+}
+/*.sec{
+	display: none;
+}*/
